@@ -1,0 +1,35 @@
+:root {
+  color-scheme: only light;
+
+  /* 60% canvas */
+  --canvas: #ffffff;
+  --cream: #f4f1ea;
+  /* 30% sand */
+  --sand: #e6ddcf;
+  --stone: #c7b8a6;
+  --taupe: #a4a09a; /* decorative only, fails text contrast */
+  /* 10% accent */
+  --accent: #2a5db0;
+  --accent-strong: #1f4a8f;
+  --accent-tint: #e8eef8;
+  /* text */
+  --on-accent: #ffffff;
+  --ink: #172b45;
+  --muted: #6b665f;
+
+  --font-script: "Mr Dafoe", cursive;
+  --font-heading: "Fraunces Variable", Georgia, serif;
+  --font-body: "Inter Variable", system-ui, sans-serif;
+
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 20px; --s6: 24px; --s8: 32px;
+  --radius-card: 12px; --radius-control: 8px; --radius-pill: 999px;
+  --shadow-card: 0 1px 2px rgba(23, 43, 69, 0.04), 0 8px 24px rgba(23, 43, 69, 0.06);
+
+  --shadow-lift: 0 2px 4px rgba(23, 43, 69, 0.06), 0 16px 32px rgba(23, 43, 69, 0.12);
+  --nav-h: 72px;
+  --footer-h: 48px;
+  --name-size: clamp(3.5rem, 10vw, 8.5rem);
+  --name-block: calc(var(--name-size) * 1.9);   /* two lines at line-height .95 */
+  --name-overlap: 0.5;                          /* how much of line 2 the head covers (em) */
+  --figure-h: clamp(480px, 70vh, 700px);
+}

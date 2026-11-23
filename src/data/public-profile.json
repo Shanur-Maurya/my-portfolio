@@ -1,0 +1,266 @@
+{
+  "_note": "PUBLIC data only: everything here is visible in the browser. Items listed in _placeholders are temporary.",
+  "_placeholders": [
+    "title",
+    "introduction",
+    "whatIDo",
+    "skills",
+    "projects",
+    "webDesigns"
+  ],
+  "name": {
+    "first": "Shanur",
+    "last": "Maurya"
+  },
+  "photo": {
+    "src": "/assets/images/profile.webp",
+    "alt": "Illustration of Shanur Maurya sitting on a stool",
+    "width": 415,
+    "height": 960
+  },
+  "title": "Software Engineer & UX Researcher | Turning user problems into products",
+  "introduction": "I build software and care about how it feels to use. I like turning unclear problems into simple, well-made products.",
+  "whatIDo": "I design and build digital products, from research and structure to working code.",
+  "skills": [
+    
+    {
+      "id": "product-design",
+      "label": "Product Design",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "ux-research",
+      "label": "UX Research",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "data-analysis",
+      "label": "Data Analysis",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "prototyping-usability-testing",
+      "label": "Prototyping and Usability Testing",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "technical-presentations",
+      "label": "Technical Presentations",
+      "visible": true,
+      "order": 6
+    }
+  ],
+  "location": {
+    "region": "Margao, Goa",
+    "map": {
+      "src": "/assets/maps/goa.svg",
+      "alt": "Map of the state of Goa on India's west coast",
+      "width": 640,
+      "height": 400
+    }
+  },
+  "contact": {
+    "user": "mauryashanur",
+    "domain": "gmail.com",
+    "phone": "+91 9561434481",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/shanur-maurya-27ba79268",
+        "icon": "linkedin"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/Shanur-Maurya",
+        "icon": "github"
+      }
+    ]
+  },
+  "projectsIntro": "Exploring ideas, solving problems and creating impactful digital experiences.",
+  "projects": [
+    {
+      "id": "job-swipe",
+      "title": "JobSwipe: From Endless Forms to One Swipe",
+      "summary": "Rethinking Job Applications, One Swipe at a Time",
+      "tags": [
+        "Gamification",
+        "UI/UX"
+      ],
+      "caseStudy": "https://30a1753b-423c-4997-8c89-cb64006e984a.filesusr.com/ugd/6f9159_83815ca4eb9742839bf544af0f9adbb0.pdf",
+      "image": "/assets/images/projects/jobswipe.png",
+  
+      "imageAlt": "JobSwipe app screens",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "go-bus",
+      "title": "GoBus: Helping Commuters Catch Every Bus",
+      "summary": "Designing Stress-Free Daily Commutes",
+      "tags": [
+        "Transportation",
+        "UX Research"
+      ],
+      "caseStudy": "https://30a1753b-423c-4997-8c89-cb64006e984a.filesusr.com/ugd/6f9159_9c3d3109bd3a432ca24dce7308e2f0f1.pdf",
+      "image": "/assets/images/projects/gobus.png",
+      "imageAlt": "GoBus app screens",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "syncsense",
+      "title": "SyncSense: Making Content Accessible for Everyone",
+      "summary": "Accessibility Designed in 6 Hours",
+      "tags": [
+        "Accessibility",
+        "UI/UX"
+      ],
+      "caseStudy": "https://30a1753b-423c-4997-8c89-cb64006e984a.filesusr.com/ugd/6f9159_91bd865c9dda44b390aa5f3ebba42f7d.pdf",
+      "image": "/assets/images/projects/syncsense.png",
+      "imageAlt": "SyncSense app screens",
+      "visible": true,
+      "order": 3
+    }
+  ],
+  "webDesignIntro": "Screens, layouts and visual designs across mobile, tablet and desktop.",
+  "webDesigns": [
+    {
+      "id": "ui-01",
+      "title": "Ryel Digital landing page",
+      "src": "/assets/images/design/ui-01.webp",
+      "full": "/assets/images/design/ui-01-full.webp",
+      "alt": "Ryel Digital hosting landing page with a blue cloud server illustration",
+      "width": 640,
+      "height": 400,
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "ui-02",
+      "title": "3D shapes landing page",
+      "src": "/assets/images/design/ui-02.webp",
+      "full": "/assets/images/design/ui-02-full.webp",
+      "alt": "Landing page with glossy 3D orange spheres on a soft peach background",
+      "width": 640,
+      "height": 400,
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "ui-03",
+      "title": "Login and calendar app UI",
+      "src": "/assets/images/design/ui-03.webp",
+      "full": "/assets/images/design/ui-03-full.webp",
+      "alt": "Mobile app screens with a login form and calendar card over orange spheres",
+      "width": 640,
+      "height": 768,
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "ui-04",
+      "title": "Headphones product hero",
+      "src": "/assets/images/design/ui-04.webp",
+      "full": "/assets/images/design/ui-04-full.webp",
+      "alt": "Dark product hero for Samsung earbuds with a glass-style card",
+      "width": 640,
+      "height": 493,
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "ui-05",
+      "title": "Taste Heritage website",
+      "src": "/assets/images/design/ui-05.webp",
+      "full": "/assets/images/design/ui-05-full.webp",
+      "alt": "Taste Heritage wine website home page with a large serif headline",
+      "width": 640,
+      "height": 416,
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "ui-06",
+      "title": "SP2L studio website",
+      "src": "/assets/images/design/ui-06.webp",
+      "full": "/assets/images/design/ui-06-full.webp",
+      "alt": "SP2L dark-mode website for a software studio, shown full length",
+      "width": 640,
+      "height": 1112,
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "ui-07",
+      "title": "Strategic Code Solutions: Home",
+      "src": "/assets/images/design/ui-07.webp",
+      "full": "/assets/images/design/ui-07-full.webp",
+      "alt": "Strategic Code Solutions company home page on a dark navy theme",
+      "width": 640,
+      "height": 1518,
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "ui-08",
+      "title": "Strategic Code Solutions: About",
+      "src": "/assets/images/design/ui-08.webp",
+      "full": "/assets/images/design/ui-08-full.webp",
+      "alt": "Strategic Code Solutions about page with mission, team and timeline",
+      "width": 640,
+      "height": 2118,
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "ui-09",
+      "title": "Strategic Code Solutions: Services",
+      "src": "/assets/images/design/ui-09.webp",
+      "full": "/assets/images/design/ui-09-full.webp",
+      "alt": "Strategic Code Solutions services page with consulting offerings",
+      "width": 640,
+      "height": 1826,
+      "visible": true,
+      "order": 9
+    },
+    {
+      "id": "ui-10",
+      "title": "Ryel Digital hosting poster",
+      "src": "/assets/images/design/ui-10.webp",
+      "full": "/assets/images/design/ui-10-full.webp",
+      "alt": "Poster announcing the Ryel Digital Enterprise Cloud Hosting Plan",
+      "width": 640,
+      "height": 1138,
+      "visible": true,
+      "order": 10
+    },
+    {
+      "id": "ui-11",
+      "title": "Ryel Digital social post",
+      "src": "/assets/images/design/ui-11.webp",
+      "full": "/assets/images/design/ui-11-full.webp",
+      "alt": "Social media post for Ryel Digital with a figure pulling back a curtain",
+      "width": 640,
+      "height": 640,
+      "visible": true,
+      "order": 11
+    },
+   
+    {
+      "id": "ui-15",
+      "title": "Travel poster: red",
+      "src": "/assets/images/design/ui-15.webp",
+      "full": "/assets/images/design/ui-15-full.webp",
+      "alt": "Global Tourism Travel poster in red tones with a snowy city",
+      "width": 640,
+      "height": 931,
+      "visible": true,
+      "order": 15
+    }
+    
+  ]
+}

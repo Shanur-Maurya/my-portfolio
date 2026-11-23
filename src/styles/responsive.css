@@ -1,0 +1,40 @@
+/* Tablet: centred hero, rails become two columns below it, connectors off. */
+@media (max-width: 1023px) {
+  :root { --name-size: clamp(3.75rem, 15vw, 7rem); --figure-h: clamp(400px, 60vh, 560px); }
+  .hero__stage { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s5); }
+  .hero__center { grid-column: 1 / -1; grid-row: 1; justify-self: center; }
+  .hero__rail { padding-top: 0; align-items: stretch; }
+  .hero__rail--left { grid-column: 1; grid-row: 2; }
+  .hero__rail--right { grid-column: 2; grid-row: 2; }
+  .card { width: 100%; }
+  .greeting { align-self: flex-start; }
+  .hero__connectors { display: none; }
+}
+
+/* Mobile: one column. Rails dissolve so cards can be ordered individually. */
+@media (max-width: 639px) {
+  :root { --name-size: clamp(4rem, 24vw, 6.5rem); --name-overlap: 0.38; }
+  .hero__stage { display: flex; flex-direction: column; align-items: center; gap: var(--s4); }
+  .hero__rail { display: contents; }
+  .hero__stage > .card, .hero__rail > .card { max-width: 480px; }
+  .greeting { align-self: center; }
+  [data-slot="greeting"] { order: 0; }
+  .hero__center { order: 1; }
+  [data-slot="introduction"] { order: 2; }
+  [data-slot="skills"] { order: 3; }
+  [data-slot="location"] { order: 4; }
+  [data-slot="contact"] { order: 5; }
+}
+
+/* Navigation: links collapse into a dropdown menu */
+@media (max-width: 767px) {
+  .icon-btn.nav__menu { display: grid; }
+  .nav__links { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; padding: var(--s2) clamp(16px, 3vw, 32px) var(--s4); border-bottom: 1px solid var(--sand); background: var(--canvas); }
+  .page__nav.is-open .nav__links { display: flex; }
+  .nav__link { min-height: 48px; }
+  .nav__link::after { bottom: 8px; }
+}
+
+@media (max-width: 767px) {
+  .bg__shape:nth-child(n + 6) { display: none; }
+}
